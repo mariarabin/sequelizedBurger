@@ -5,10 +5,11 @@
 // Dependencies
 // =============================================================
 var express = require("express");
-
+var db = require("./models");
 // Sets up the Express App
 // =============================================================
 var app = express();
+
 var PORT = process.env.PORT || 7001;
 
 // Sets up the Express app to handle data parsing
