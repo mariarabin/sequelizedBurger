@@ -1,2 +1,1 @@
-INSERT INTO burger (name) VALUES ('Meeses');
-INSERT INTO burger (name, sleepy) VALUES ('Sylvester', true);
+INSERT INTO burgers (burger, date_created, date_eaten, devoured) VALUES ('Hamburger', NOW(), NOW(), FALSE);
